@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\タカラモノ\2017电子设计国赛\4.单摆\单摆(直流电机)\ADC采样\Project\Pro\project.uvprojx
+Project File Date:  04/21/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=25892 RO-data=796 RW-data=244 ZI-data=1884  
+FromELF: creating hex file...
+"..\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+"..\\Obj\\project.axf" 
+* JLink Info: Device "CORTEX-M3" selected (0 KB flash, 0 KB RAM).
+Set JLink Project File to "E:\タカラモノ\2017电子设计国赛\4.单摆\单摆(直流电机)\ADC采样\Project\Pro\JLinkSettings.ini"
+* JLink Info: Device "CORTEX-M3" selected (0 KB flash, 0 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.88 , compiled Jul 15 2014 08:50:40
+Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+Hardware: V7.00
+S/N : 20090928 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.300V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+.
+
+rc\DataInit.c(6): error:  #20: identifier "PidTypeDef" is undefined
+  PidTypeDef PidDataSpeed_Right;
+..\..\User\src\DataInit.c(7): error:  #20: identifier "PidTypeDef" is undefined
+  PidTypeDef PidDataStation;
+..\..\User\src\DataInit.c(14): warning:  #223-D: function "PID_Init" declared implicitly
+        PID_Init(&PidDataSpeed_Left);
+..\..\User\src\DataInit.c(15): warning:  #223-D: function "PID_SetParam" declared implicitly
+        PID_SetParam(&PidDataSpeed_Left , 10.0 , 0.03 , 0 , 4000 , 4000 , 0 , 0 , 0 , 4500);                         // P I D Beta Outbeta Dif_prior Kaff Kvff Full_beta
+..\..\User\src\DataInit.c: 2 warnings, 6 errors
+"..\Obj\project.axf" - 8 Error(s), 4 Warning(s).
+Target not created

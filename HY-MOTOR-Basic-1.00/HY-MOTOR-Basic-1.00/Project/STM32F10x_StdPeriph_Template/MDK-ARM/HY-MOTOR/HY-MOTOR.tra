@@ -1,0 +1,52 @@
+*** Creating Trace Output File '.\HY-MOTOR\HY-MOTOR.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\hy-motor\stm32f10x_it.o"'
+### List of Objects: adding '".\hy-motor\main.o"'
+### List of Objects: adding '".\hy-motor\motorx.o"'
+### List of Objects: adding '".\hy-motor\motory.o"'
+### List of Objects: adding '".\hy-motor\lcd.o"'
+### List of Objects: adding '".\hy-motor\hzlib.o"'
+### List of Objects: adding '".\hy-motor\asciilib.o"'
+### List of Objects: adding '".\hy-motor\func.o"'
+### List of Objects: adding '".\hy-motor\menu.o"'
+### List of Objects: adding '".\hy-motor\misc.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_adc.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_bkp.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_can.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_cec.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_crc.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_dac.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_dma.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_exti.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_flash.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_fsmc.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_gpio.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_i2c.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_pwr.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_rcc.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_rtc.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_sdio.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_spi.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_tim.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_usart.o"'
+### List of Objects: adding '".\hy-motor\stm32f10x_wwdg.o"'
+### List of Objects: adding '".\hy-motor\core_cm3.o"'
+### List of Objects: adding '".\hy-motor\system_stm32f10x.o"'
+### List of Objects: adding '".\hy-motor\startup_stm32f10x_hd.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\hy-motor\stm32f10x_it.o" ".\hy-motor\main.o" ".\hy-motor\motorx.o" ".\hy-motor\motory.o" ".\hy-motor\lcd.o" ".\hy-motor\hzlib.o" ".\hy-motor\asciilib.o" ".\hy-motor\func.o" ".\hy-motor\menu.o" ".\hy-motor\misc.o" ".\hy-motor\stm32f10x_adc.o" ".\hy-motor\stm32f10x_bkp.o" ".\hy-motor\stm32f10x_can.o" ".\hy-motor\stm32f10x_cec.o" ".\hy-motor\stm32f10x_crc.o" ".\hy-motor\stm32f10x_dac.o" ".\hy-motor\stm32f10x_dbgmcu.o" ".\hy-motor\stm32f10x_dma.o" ".\hy-motor\stm32f10x_exti.o" ".\hy-motor\stm32f10x_flash.o" ".\hy-motor\stm32f10x_fsmc.o" ".\hy-motor\stm32f10x_gpio.o" ".\hy-motor\stm32f10x_i2c.o" ".\hy-motor\stm32f10x_iwdg.o" ".\hy-motor\stm32f10x_pwr.o" ".\hy-motor\stm32f10x_rcc.o" ".\hy-motor\stm32f10x_rtc.o" ".\hy-motor\stm32f10x_sdio.o" ".\hy-motor\stm32f10x_spi.o" ".\hy-motor\stm32f10x_tim.o" ".\hy-motor\stm32f10x_usart.o" ".\hy-motor\stm32f10x_wwdg.o" ".\hy-motor\core_cm3.o" ".\hy-motor\system_stm32f10x.o" ".\hy-motor\startup_stm32f10x_hd.o" 
+--library_type=microlib --strict --scatter ".\HY-MOTOR\HY-MOTOR.sct" 
+--summary_stderr --info summarysizes -o .\HY-MOTOR\HY-MOTOR.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\HY-MOTOR\HY-MOTOR.axf'
+### ADS-LD Command File: '.\HY-MOTOR\HY-MOTOR.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\HY-MOTOR\HY-MOTOR.lnp', Handle=0x00000354
+### Writing '.lnp' file
+### ADS-LD Command file '.\HY-MOTOR\HY-MOTOR.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
