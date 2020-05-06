@@ -1,4 +1,4 @@
-# 2011-EDC-single_pendulum
+# 2017 Undergraduate Electronics Design Contest
 Undergraduate Electronics Design Contest Tasks (Control Group):
 
 Single pendulum 
